@@ -1,18 +1,23 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HomePage msg="Welcome to Your Vue.js App"/>
-  </div>
+  <Navigation/>
+  <HomePage/>
+  <Work/>
+  <Projects/>
 </template>
 
 <script>
-// @ is an alias to /src
+import Navigation from '@/components/Navigation.vue'
 import HomePage from '@/components/HomePage.vue'
+import Work from '@/components/Work.vue'
+import Projects from '@/components/Projects.vue'
 
 export default {
   name: 'Home',
   components: {
-    HomePage
+    Navigation,
+    HomePage,
+    Work,
+    Projects
   }
 }
 </script>
