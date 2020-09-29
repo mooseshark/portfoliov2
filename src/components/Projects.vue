@@ -11,7 +11,7 @@
       </div>
       <div class="row">
         <div class="col-md d-flex align-items-stretch">
-          <div class="card">
+          <div class="card shadow-lg">
             <img src="../assets/dumbcode.png" class="card-img-top" alt="dumbcode.dev front page">
             <div class="card-body">
               <h5 class="card-title">DumbCode.dev</h5>
@@ -25,12 +25,12 @@
           </div>
         </div>
         <div class="col-md d-flex align-items-stretch">
-          <div class="card">
+          <div class="card shadow-lg">
             <img src="../assets/angular-search.png" class="card-img-top" alt="GitHub User Search Angular homepage">
             <div class="card-body">
               <h5 class="card-title">GitHub Search in AngularJS</h5>
               <p class="card-text">
-                A small project written in AngularJS utilizing Apollo to connect
+                A small project written in AngularJS utilizing Angular Apollo to connect
                 to the GitHub v4 GraphQL API.
               </p>
               <div class="row"><a href="https://angulargithubsearch.xyz/" class="btn btn-dark mb-2 pb-2"><i class="fas fa-book"></i> Take a look</a></div>
@@ -39,12 +39,12 @@
           </div>
         </div>
         <div class="col-md d-flex align-items-stretch">
-          <div class="card">
+          <div class="card shadow-lg">
             <img src="../assets/vue-search.png" class="card-img-top" alt="GitHub User Search Vue homepage">
             <div class="card-body">
               <h5 class="card-title">GitHub Search in Vue.js</h5>
               <p class="card-text">
-                A small project written in Vue.js utilizing Apollo to connect
+                A small project written in Vue.js utilizing Vue Apollo to connect
                 to the GitHub v4 GraphQL API.
               </p>
               <div class="row"><a href="https://githubusersearch.xyz/#/" rel="noopener noreferrer" target="_blank" class="btn btn-dark mb-2 pb-2"><i class="fas fa-book"></i> Take a look</a></div>
@@ -55,7 +55,7 @@
       </div>
       <div class="row">
         <div class="col-md d-flex align-items-stretch">
-          <div class="card">
+          <div class="card shadow-lg">
             <img src="../assets/button-clicks.png" class="card-img-top" alt="Button Clicks homepage">
             <div class="card-body">
               <h5 class="card-title">Button Clicks</h5>
@@ -69,7 +69,7 @@
           </div>
         </div>
         <div class="col-md d-flex align-items-stretch">
-          <div class="card">
+          <div class="card shadow-lg">
             <img src="../assets/space-defense.png" class="card-img-top" alt="space defense force 9 start screen">
             <div class="card-body">
               <h5 class="card-title">Space Defence Force 9</h5>
