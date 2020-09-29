@@ -33,7 +33,7 @@
                 A small project written in AngularJS utilizing Angular Apollo to connect
                 to the GitHub v4 GraphQL API.
               </p>
-              <div class="row"><a href="https://angulargithubsearch.xyz/" class="btn btn-dark mb-2 pb-2"><i class="fas fa-book"></i> Take a look</a></div>
+              <div class="row"><a href="https://angulargithubsearch.xyz/" rel="noopener noreferrer" target="_blank" class="btn btn-dark mb-2 pb-2"><i class="fas fa-book"></i> Take a look</a></div>
               <div class="row"><a href="https://github.com/mooseshark/angular-github-search" rel="noopener noreferrer" target="_blank" class="btn btn-dark"><i class="fab fa-github"></i> GitHub</a></div>
             </div>
           </div>
@@ -77,7 +77,7 @@
                 A bad GameMaker Space Invaders Clone I through together in
                 about 8 hours one night.
               </p>
-              <div class="row" v-if="isNotTouchDevice"><a href="#" rel="noopener noreferrer" target="_blank" class="btn btn-dark mb-2 pb-2"><i class="fas fa-gamepad"></i> Give it a play</a></div>
+              <div class="row" v-if="isNotTouchDevice"><a href="#" rel="noopener noreferrer" target="_blank" class="btn btn-dark mb-2 pb-2 disabled"><i class="fas fa-gamepad"></i> Give it a play</a></div>
               <div class="row" v-else><a class="btn btn-dark mb-2 pb-2"><i class="fas fa-times-circle"></i> Unable to play on mobile</a></div>
 
               <div class="row"><a href="https://github.com/mooseshark/space-defense-force-9" rel="noopener noreferrer" target="_blank" class="btn btn-dark"><i class="fab fa-github"></i> GitHub</a></div>

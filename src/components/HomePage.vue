@@ -1,5 +1,7 @@
 <template>
   <div class="jumbotron">
+
+    <Construction/>
     <div class="container">
       <h1 class="display-3">Hello, world!</h1>
       <div class="row">
@@ -22,19 +24,20 @@
           <img src="../assets/profile-pic-mask-200.png" class="rounded float-right" alt="let's take a selfie with a mask on">
         </div>
       </div>
-      <p><a class="btn btn-dark btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      <!--<p><a class="btn btn-dark btn-lg" href="#" role="button">Learn more &raquo;</a></p>-->
     </div>
   </div>
 </template>
 
 <script>
-
+import Construction from '@/components/Construction.vue'
 
 export default {
   name: 'HomePage',
   props: {
   },
   components: {
+    Construction
   }
 }
 </script>

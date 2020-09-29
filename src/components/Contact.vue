@@ -35,7 +35,7 @@
       </div>
       <div class="row">
         <div class="col">
-          ©2020. All Rights Reserved
+          <!-- ©2020. All Rights Reserved -->
         </div>
       </div>
     </div>
