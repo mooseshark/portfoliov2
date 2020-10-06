@@ -1,6 +1,5 @@
 <template>
-  <div class="jumbotron">
-
+  <div class="jumbotron" id="home">
     <Construction/>
     <div class="container">
       <h1 class="display-3">Hello, world!</h1>
@@ -47,7 +46,6 @@ export default {
 .jumbotron {
   padding: 2rem 1rem;
   margin-top: 40px;
-  margin-bottom: 2rem;
   background-color: #e9ecef;
   border-radius: 0.3rem;
 }

@@ -1,5 +1,6 @@
 <template>
-  <div class="projects" id="projects">
+  <div class="pb-4" id="projects" style="color: #ffffff; background-color: #ffffff">projects</div>
+  <div class="projects">
     <div class="container">
       <div class="row">
         <div class="col">
