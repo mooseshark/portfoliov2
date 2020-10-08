@@ -8,7 +8,7 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav ml-auto pl-1 pr-1">
         <li class="nav-item mr-2">
-          <ScrollLink class="nav-link pl-1 pr-1" href="#top"><i class="fa fa-user-o"></i> Home</ScrollLink>
+          <ScrollLink class="nav-link pl-1 pr-1" href="#home"><i class="fa fa-user-o"></i> Home</ScrollLink>
         </li>
         <li class="nav-item mr-2">
           <ScrollLink class="nav-link pl-1 pr-1" href="#work"><i class="fas fa-folder-open"></i> Work</ScrollLink>

@@ -1,5 +1,6 @@
 <template>
-  <div class="work" id="work">
+  <div class="work pb-4" id="work" style="color: #e9ecef; background-color: #e9ecef">work</div>
+  <div>
     <div class="container">
       <div class="row">
         <div class="col">
@@ -15,14 +16,15 @@
             my framework experience has been with Sencha's ExtJS framework,
             however, I've dabbled with AngularJS and Vue.js, which this site is
             built with, just not in a professional setting. I also have some
-            experience with some front front end development using C#
+            experience with some front end development using C# for desktop
+            application development.
           </p>
           <p>
             Outside of JavaScript and those specific frameworks, I also have
             front end experience with HTML, CSS, jQuery, TypeScript, ColdFusion
             and Socket.IO. I've also done a few tutorials with React in the past.
             In my experience, most JavaScript based frameworks have been fairly
-            similar, which makes them easier to pick up and switch between.
+            similar, which makes them easier to pick up and switch between for me.
           </p>
         </div>
         <div class="col-md text-center">
@@ -43,8 +45,8 @@
           <p>
             The majority of my backend design has been utilizing CRUD design
             methodologies, but I am familiar with REST as well. I have researched
-            SOAP before, but have yet to utilize it with any projects, personally
-            or professionally.
+            SOAP before, but have yet to used SOAP design methods with any
+            projects, personally or professionally.
           </p>
         </div>
         <div class="col-md text-center">
@@ -59,7 +61,7 @@
             deleting data using SQL, as well as creating and updating indexes,
             synonyms, views, and stored procedures. Much of this has
             been done using ORM with ColdFusion or Entity Framework, however
-            I've also had to accomplish much of this with straight SQL.
+            I've also had to accomplish much of this with normal SQL.
           </p>
           <p>
             I'm familiar with NoSQL databases and JSON stores as well. I've
@@ -78,13 +80,14 @@
           <p>
             I have a much more extensive history with writing batch scripts,
             having used batch scripting frequently at my help desk job to automate
-            tasks, application repairs, and create random fixes to help speed
+            tasks, automate application repairs, and create random fixes to help speed
             up some aspects of my job. I've also used batch scripting along with
             VBS to implement some simple tools with a .hta GUI.
           </p>
           <p>
             At my previous job I was able to work some with PowerShell to automate
-            a few tasks and CSScript to write some database and code fixes.
+            a few tasks and CSScript to write some database and code fixes for
+            our applications there.
           </p>
         </div>
       </div>

@@ -1,5 +1,6 @@
 <template>
-  <div class="work" id="work">
+  <div class="hobbies pb-4" id="hobbies" style="color: #e9ecef; background-color: #e9ecef">hobbies</div>
+  <div>
     <div class="container">
       <div class="row">
         <div class="col">
@@ -11,17 +12,9 @@
       </div>
       <div class="row">
         <div class="col-md text-center">
-          <p class="h2">
-            I swear I have hobbies, but this section is currently under
-            construction. Here's a picture of my cat for now.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md text-center">
         </div>
         <div class="col-md text-center">
-          <img src="../assets/cat.png" class="rounded float-right mb-4" alt="it's a cat, but it's wearing a crown.">
+          <Carousel/>
         </div>
         <div class="col-md text-center">
         </div>
@@ -31,8 +24,12 @@
 </template>
 
 <script>
+import Carousel from './Carousel.vue'
 
 export default {
-  name: 'hobbies'
+  name: 'hobbies',
+  components: {
+    Carousel
+  }
 }
 </script>
