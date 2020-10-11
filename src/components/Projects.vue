@@ -64,6 +64,7 @@
                 A bad, unfun Vanilla JS/jQuery game where you click a bunch of
                 buttons.
               </p>
+              <!-- <router-link to="/button-clicks" class="navbar-brand">Button Clicks</router-link> -->
               <div class="row"><a href="https://buttonclicks.net/" rel="noopener noreferrer" target="_blank" class="btn btn-dark mb-2 pb-2"><i class="fas fa-gamepad"></i> Give it a play</a></div>
               <div class="row"><a href="https://github.com/mooseshark/button-clicks" rel="noopener noreferrer" target="_blank" class="btn btn-dark"><i class="fab fa-github"></i> GitHub</a></div>
             </div>
@@ -75,10 +76,10 @@
             <div class="card-body">
               <h5 class="card-title">Space Defence Force 9</h5>
               <p class="card-text">
-                A bad GameMaker Space Invaders Clone I through together in
+                A bad GameMaker Space Invaders Clone I threw together in
                 about 8 hours one night.
               </p>
-              <div class="row" v-if="isNotTouchDevice"><a href="#" rel="noopener noreferrer" target="_blank" class="btn btn-dark mb-2 pb-2 disabled"><i class="fas fa-gamepad"></i> Give it a play</a></div>
+              <div class="row" v-if="isNotTouchDevice"><a href="https://spacedefenseforce9.com/" rel="noopener noreferrer" target="_blank" class="btn btn-dark mb-2 pb-2"><i class="fas fa-gamepad"></i> Give it a play</a></div>
               <div class="row" v-else><a class="btn btn-dark mb-2 pb-2"><i class="fas fa-times-circle"></i> Unable to play on mobile</a></div>
 
               <div class="row"><a href="https://github.com/mooseshark/space-defense-force-9" rel="noopener noreferrer" target="_blank" class="btn btn-dark"><i class="fab fa-github"></i> GitHub</a></div>

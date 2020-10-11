@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+<!--  <div class="container">
     <div class="menuDiv" style="float: right">
       <ul class="menu">
           <li>
@@ -24,31 +24,27 @@
         <input id="insanity" type="button" value="Insanity" onclick="setDifficulty(this.id);" style="float: left; width: 120px;" />
       </article>
     </article>
-  </div>
+  </div> -->
 </template>
 
 <script>
 
-
 export default {
-  name: 'ButtonClicks',
-  props: {
-  },
-  data: function() {
-    return {
-      searchTerm: ''
-    }
-  },
-  computed: {
-    captureSearchTerm: function () {
-      return this.searchTerm;
-    }
-  },
-  methods: {
-    onSearch: function (event) {
-      this.$emit('onSearch', event);
-    },
-  }
+  // name: 'ButtonClicks',
+  // props: {
+  // },
+  // mounted() {
+  // },
+  // data: function() {
+  //   return {
+  //
+  //   }
+  // },
+  // computed: {
+  // },
+  // methods: {
+  //
+  // }
 }
 </script>
 

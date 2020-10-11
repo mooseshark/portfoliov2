@@ -45,33 +45,6 @@
 <script>
 export default {
   name: 'contact',
-  mounted() {
-
-      // let popperJS = document.createElement('script');
-      //
-      // popperJS.setAttribute('src', 'https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js');
-      // popperJS.setAttribute('integrity', 'sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo');
-      // popperJS.setAttribute('crossorigin', 'anonymous');
-      //
-      // let bootstrapJS = document.createElement('script');
-      //
-      // bootstrapJS.setAttribute('src', 'https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js');
-      // bootstrapJS.setAttribute('integrity', 'sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/');
-      // bootstrapJS.setAttribute('crossorigin', 'anonymous');
-      //
-      // let initializeToolTip = document.createElement('script');
-      //
-      // initializeToolTip.setAttribute('innerHTML', `
-      //   var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="tooltip"]'))
-      //   var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-      //     return new bootstrap.Tooltip(tooltipTriggerEl);
-      //   })
-      // `);
-      //
-      // document.head.appendChild(popperJS);
-      // document.head.appendChild(bootstrapJS);
-      // document.head.appendChild(initializeToolTip);
-    },
   methods: {
     copyTextArea: function (id) {
       this.selectText(document.getElementById(id));
