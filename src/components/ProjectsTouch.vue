@@ -10,14 +10,11 @@
           </p>
         </div>
       </div>
-      <div class="row mb-4">
-        <div class="col-md d-flex align-items-stretch flip-card">
-          <div class="card shadow-lg flip-card-inner">
-            <div class="card-body flip-card-front">
-              <h5 class="card-title"><strong>DumbCode.dev</strong></h5>
-              <img src="../assets/dumbcode.png" class="card-img-top" alt="dumbcode.dev front page">
-            </div>
-            <div class="card-body flip-card-back">
+      <div class="row">
+        <div class="col-md d-flex align-items-stretch">
+          <div class="card shadow-lg">
+            <img src="../assets/dumbcode.png" class="card-img-top" alt="dumbcode.dev front page">
+            <div class="card-body">
               <h5 class="card-title">DumbCode.dev</h5>
               <p class="card-text">
                 A tech blog for wierd little projects I build. Written mostly
@@ -28,13 +25,10 @@
             </div>
           </div>
         </div>
-        <div class="col-md d-flex align-items-stretch flip-card">
-          <div class="card shadow-lg flip-card-inner">
-            <div class="card-body flip-card-front">
-              <h5 class="card-title"><strong>GitHub Search in AngularJS</strong></h5>
-              <img src="../assets/angular-search.png" class="card-img-top" alt="GitHub User Search Angular homepage">
-            </div>
-            <div class="card-body flip-card-back">
+        <div class="col-md d-flex align-items-stretch">
+          <div class="card shadow-lg">
+            <img src="../assets/angular-search.png" class="card-img-top" alt="GitHub User Search Angular homepage">
+            <div class="card-body">
               <h5 class="card-title">GitHub Search in AngularJS</h5>
               <p class="card-text">
                 A small project written in AngularJS utilizing Angular Apollo to connect
@@ -45,13 +39,10 @@
             </div>
           </div>
         </div>
-        <div class="col-md d-flex align-items-stretch flip-card">
-          <div class="card shadow-lg flip-card-inner">
-            <div class="card-body flip-card-front">
-              <h5 class="card-title"><strong>GitHub Search in Vue.js</strong></h5>
-              <img src="../assets/vue-search.png" class="card-img-top" alt="GitHub User Search Vue homepage">
-            </div>
-            <div class="card-body flip-card-back">
+        <div class="col-md d-flex align-items-stretch">
+          <div class="card shadow-lg">
+            <img src="../assets/vue-search.png" class="card-img-top" alt="GitHub User Search Vue homepage">
+            <div class="card-body">
               <h5 class="card-title">GitHub Search in Vue.js</h5>
               <p class="card-text">
                 A small project written in Vue.js utilizing Vue Apollo to connect
@@ -64,13 +55,10 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md d-flex align-items-stretch flip-card">
-          <div class="card shadow-lg flip-card-inner">
-            <div class="card-body flip-card-front">
-              <h5 class="card-title"><strong>Button Clicks</strong></h5>
-              <img src="../assets/button-clicks.png" class="card-img-top" alt="Button Clicks homepage">
-            </div>
-            <div class="card-body flip-card-back">
+        <div class="col-md d-flex align-items-stretch">
+          <div class="card shadow-lg">
+            <img src="../assets/button-clicks.png" class="card-img-top" alt="Button Clicks homepage">
+            <div class="card-body">
               <h5 class="card-title">Button Clicks</h5>
               <p class="card-text">
                 A bad, unfun Vanilla JS/jQuery game where you click a bunch of
@@ -82,24 +70,21 @@
             </div>
           </div>
         </div>
-        <div class="col-md d-flex align-items-stretch flip-card">
-          <div class="card shadow-lg flip-card-inner">
-            <div class="card-body flip-card-front">
-              <h5 class="card-title"><strong>Space Defence Force 9</strong></h5>
-              <img src="../assets/space-defense.png" class="card-img-top" alt="space defense force 9 start screen">
-            </div>
-            <div class="card-body flip-card-back">
+        <div class="col-md d-flex align-items-stretch">
+          <div class="card shadow-lg">
+            <img src="../assets/space-defense.png" class="card-img-top" alt="space defense force 9 start screen">
+            <div class="card-body">
               <h5 class="card-title">Space Defence Force 9</h5>
               <p class="card-text">
                 A bad GameMaker Space Invaders Clone I threw together in
                 about 8 hours one night.
               </p>
-              <div class="row"><a href="https://spacedefenseforce9.com/" rel="noopener noreferrer" target="_blank" class="btn btn-dark mb-2 pb-2"><i class="fas fa-gamepad"></i> Give it a play</a></div>
+              <div class="row"><a class="btn btn-dark mb-2 pb-2"><i class="fas fa-times-circle"></i> Unable to play on mobile</a></div>
               <div class="row"><a href="https://github.com/mooseshark/space-defense-force-9" rel="noopener noreferrer" target="_blank" class="btn btn-dark"><i class="fab fa-github"></i> GitHub</a></div>
             </div>
           </div>
         </div>
-        <div class="col-md d-flex align-items-stretch flip-card">
+        <div class="col-md d-flex align-items-stretch">
         </div>
       </div>
     </div>
@@ -124,42 +109,4 @@ export default {
 .projects{
   background-color: #e9ecef;
 }
-
-.flip-card {
-  width: 500px;
-  height: 300px;
-  background-color: transparent;
-  perspective: 1000px;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: #ffffff;
-}
-
-.flip-card-back {
-  transform: rotateY(180deg);
-}
-
 </style>
