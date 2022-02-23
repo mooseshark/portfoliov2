@@ -31,8 +31,8 @@
           <i class="fas fa-server fa-4x"></i>
           <p class="h3">Back End Development</p>
           <p>
-            Professionally, almost all of my experience has been with using
-            ColdFusion and ColdSpring, which is somewhat similar to Java and
+            Professionally, my experience is split between (more recently) Ruby on Rails
+            and ColdFusion and ColdSpring, which is somewhat similar to Java and
             the Java Spring Framework, as ColdFusion was built using Java. I've
             also used C# with the Entity Framework for backend development on
             several desktop applications. I've done some PHP, but not recently.
@@ -45,7 +45,7 @@
           <p>
             The majority of my backend design has been utilizing CRUD design
             methodologies, but I am familiar with REST as well. I have researched
-            SOAP before, but have yet to used SOAP design methods with any
+            SOAP before, but have yet to use SOAP design methods with any
             projects, personally or professionally.
           </p>
         </div>
@@ -53,14 +53,14 @@
           <i class="fas fa-database fa-4x"></i>
           <p class="h3">Database</p>
           <p>
-            The bulk of my database experience is with MSSQL and SQLite, though
+            The bulk of my database experience is with PostgreSQL, MSSQL and SQLite, though
             I do have some experience using MySQL and Oracle.
           </p>
           <p>
             I've been responsible for creating, modifying, updating and
             deleting data using SQL, as well as creating and updating indexes,
             synonyms, views, and stored procedures. Much of this has
-            been done using ORM with ColdFusion or Entity Framework, however
+            been done using Rails, ORM with ColdFusion or Entity Framework, however
             I've also had to accomplish much of this with normal SQL.
           </p>
           <p>
@@ -85,7 +85,7 @@
             VBS to implement some simple tools with a .hta GUI.
           </p>
           <p>
-            At my previous job I was able to work some with PowerShell to automate
+            At my previous job I was able to work with PowerShell to automate
             a few tasks and CSScript to write some database and code fixes for
             our applications there.
           </p>
@@ -107,7 +107,7 @@
             When not coding, I've been responsible for gathering and documenting customer
             requirements, creating software requirements specifications
             and system design documents, creating and assigning tasks and stories in Jira,
-            devoloping sprints, creating estimates for tasks, documenting processes (often
+            development sprints, creating estimates for tasks, documenting processes (often
             using Confluence), QA testing, developing QA test cases, code/peer
             reviewing teammate's code, and creating and promoting builds. As a lead,
             I was also in charge of planning future releases and features, as well as
@@ -153,3 +153,7 @@ export default {
   name: 'work'
 }
 </script>
+
+<style scoped>
+
+</style>

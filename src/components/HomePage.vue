@@ -11,7 +11,7 @@
           <p>
             In my spare time, I enjoy coding small projects, as well as assembling/working
             on computers and hardware. I like to play video games, but also enjoy
-            collacting and repairing games, accessories, and consoles.
+            collecting and repairing games, accessories, and consoles.
           </p>
           <p>
             Sometimes I go outside too, where I enjoy skateboarding. I also like to
